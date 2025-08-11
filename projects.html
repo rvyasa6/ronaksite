@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Ronak Vyas</title>
+  <meta name="description" content="AI product leadership and agentic program delivery by Ronak Vyas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="logo" src="assets/logo.svg" alt="Ronak Vyas logo"/>
+        <div>
+          <div class="site-title">Ronak Vyas</div>
+          <div class="notice">Product and Program Leader · AI · Cloud</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blueprints.html">Blueprints</a>
+        <a class="cta" href="#contact">Start a conversation</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+
+  <div class="section-title">
+    <h2>Projects</h2>
+    <div class="controls">
+      <span class="badge active" data-tag="all" onclick="applyFilter('all')">All</span>
+      <span class="badge" data-tag="ai" onclick="applyFilter('ai')">AI</span>
+      <span class="badge" data-tag="release" onclick="applyFilter('release')">Release</span>
+      <span class="badge" data-tag="banking" onclick="applyFilter('banking')">Banking</span>
+      <span class="badge" data-tag="cloud" onclick="applyFilter('cloud')">Cloud</span>
+    </div>
+  </div>
+  <section class="grid">
+    <article class="card col-6" data-tags="ai,release">
+      <h3>Apple Services packaging</h3>
+      <p class="notice">Agentic workflows for CI/CD packaging at scale</p>
+      <ul class="list">
+        <li>30 percent faster releases</li>
+        <li>20 percent fewer rollbacks</li>
+      </ul>
+    </article>
+    <article class="card col-6" data-tags="banking,ai">
+      <h3>CIBC digital engagement</h3>
+      <p class="notice">ML assisted planning and experience improvements</p>
+      <ul class="list">
+        <li>25 percent uplift in engagement</li>
+        <li>30 plus apps with shared planning tools</li>
+      </ul>
+    </article>
+    <article class="card col-6" data-tags="cloud">
+      <h3>Cloud adoption at scale</h3>
+      <p class="notice">Migration plans for 4 of Canada’s top 5 banks</p>
+      <ul class="list">
+        <li>$1.5M new B2B revenue</li>
+        <li>Hybrid AWS and Azure rollouts</li>
+      </ul>
+    </article>
+    <article class="card col-6" data-tags="telco,cloud">
+      <h3>Telco backend resiliency</h3>
+      <p class="notice">Stability improvements for call handling at Amdocs</p>
+      <ul class="list">
+        <li>80 percent fewer call drops</li>
+        <li>First to commercialize with ONAP</li>
+      </ul>
+    </article>
+  </section>
+
+    <footer class="footer">
+      <div>© 2025 Ronak Vyas. All rights reserved.</div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
