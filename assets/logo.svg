@@ -1,0 +1,13 @@
+
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ronak monogram">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2aa6ff"/>
+      <stop offset="100%" stop-color="#8ed6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(#g)"/>
+  <g transform="translate(34,30)" fill="#06121f">
+    <path d="M0 0h28c13 0 20 7 20 18 0 9-5 15-13 17l15 19H37L24 53H12v21H0V0zm12 12v23h16c7 0 10-4 10-11 0-7-4-12-11-12H12z"/>
+  </g>
+</svg>

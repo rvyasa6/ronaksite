@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Ronak Vyas</title>
+  <meta name="description" content="AI product leadership and agentic program delivery by Ronak Vyas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="logo" src="assets/logo.svg" alt="Ronak Vyas logo"/>
+        <div>
+          <div class="site-title">Ronak Vyas</div>
+          <div class="subtle">AI Product and Program Leadership</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blueprints.html">Blueprints</a>
+        <a class="cta" href="#contact">Start a conversation</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+
+  <div class="section-title">
+    <h2>Projects</h2>
+    <div class="controls">
+      <span class="badge active" data-tag="all" onclick="applyFilter('all')">All</span>
+      <span class="badge" data-tag="ai" onclick="applyFilter('ai')">AI</span>
+      <span class="badge" data-tag="release" onclick="applyFilter('release')">Release</span>
+      <span class="badge" data-tag="banking" onclick="applyFilter('banking')">Banking</span>
+      <span class="badge" data-tag="cloud" onclick="applyFilter('cloud')">Cloud</span>
+      <span class="badge" data-tag="mba" onclick="applyFilter('mba')">MBA</span>
+      <span class="badge" data-tag="meng" onclick="applyFilter('meng')">M.Eng</span>
+    </div>
+  </div>
+  <section class="grid">
+    <article class="card col-6" data-tags="ai,release">
+      <h3>Apple Services packaging</h3>
+      <p class="subtle">Agentic workflows for CI/CD packaging at scale</p>
+      <ul class="list">
+        <li>30 percent faster releases</li>
+        <li>20 percent fewer rollbacks</li>
+      </ul>
+      <div class="chips"><span class="chip">Release</span><span class="chip">Observability</span><span class="chip">Automation</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="banking,ai">
+      <h3>CIBC digital engagement</h3>
+      <p class="subtle">ML assisted planning and journey improvements</p>
+      <ul class="list">
+        <li>25 percent uplift in engagement</li>
+        <li>30 plus apps with shared planning tools</li>
+      </ul>
+      <div class="chips"><span class="chip">Banking</span><span class="chip">AI</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="cloud">
+      <h3>Cloud adoption at scale</h3>
+      <p class="subtle">Migration plans for top Canadian banks</p>
+      <ul class="list">
+        <li>$1.5M new B2B revenue</li>
+        <li>Hybrid AWS and Azure rollouts</li>
+      </ul>
+      <div class="chips"><span class="chip">Cloud</span><span class="chip">Strategy</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="telco,cloud">
+      <h3>Telco backend resiliency</h3>
+      <p class="subtle">Stability improvements for call handling at Amdocs</p>
+      <ul class="list">
+        <li>80 percent fewer call drops</li>
+        <li>First to commercialize with ONAP</li>
+      </ul>
+      <div class="chips"><span class="chip">Telco</span><span class="chip">ONAP</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="mba,ai">
+      <h3>UNC MBA Capstone: AI in FinTech</h3>
+      <p class="subtle">Scenario planning and product strategy for consumer FinTech</p>
+      <ul class="list">
+        <li>Four frontier futures with KPI trees</li>
+        <li>Roadmap and governance for AI features</li>
+      </ul>
+      <div class="chips"><span class="chip">MBA</span><span class="chip">FinTech</span><span class="chip">Strategy</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="mba,brand">
+      <h3>Brand Management: Report Card</h3>
+      <p class="subtle">Applied Keller framework to measure brand health</p>
+      <ul class="list">
+        <li>Equity gaps and priority moves</li>
+        <li>Experiment backlog with success metrics</li>
+      </ul>
+      <div class="chips"><span class="chip">MBA</span><span class="chip">Brand</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="meng,cloud">
+      <h3>Carleton M.Eng: Distributed Systems Lab</h3>
+      <p class="subtle">Kubernetes auto scaling experiments with synthetic loads</p>
+      <ul class="list">
+        <li>HPA and custom metrics benchmarking</li>
+        <li>Failure injection and recovery time study</li>
+      </ul>
+      <div class="chips"><span class="chip">M.Eng</span><span class="chip">K8s</span><span class="chip">SRE</span></div>
+    </article>
+
+    <article class="card col-6" data-tags="meng,ai">
+      <h3>Applied ML: Anomaly Detection</h3>
+      <p class="subtle">Real time anomaly detection for telemetry streams</p>
+      <ul class="list">
+        <li>Isolation Forest and LSTM prototypes</li>
+        <li>Precision and latency tradeoff analysis</li>
+      </ul>
+      <div class="chips"><span class="chip">M.Eng</span><span class="chip">ML</span></div>
+    </article>
+  </section>
+
+    <footer class="footer">
+      <div>© 2025 Ronak Vyas. All rights reserved.</div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
